@@ -619,6 +619,10 @@ handle differences between the manifest in the Helm storage and the resources
 currently existing in the cluster.</p>
 <h3 id="helm.toolkit.fluxcd.io/v2.Filter">Filter
 </h3>
+<p>
+(<em>Appears on:</em>
+<a href="#helm.toolkit.fluxcd.io/v2.Test">Test</a>)
+</p>
 <p>Filter holds the configuration for individual Helm test filters.</p>
 <div class="md-typeset__scrollwrap">
 <div class="md-typeset__table">
@@ -2353,7 +2357,9 @@ Kubernetes meta/v1.Time
 <td>
 <code>testHooks</code><br>
 <em>
-map[string]*./api/v2.TestHookStatus
+<a href="#helm.toolkit.fluxcd.io/v2.TestHookStatus">
+TestHookStatus
+</a>
 </em>
 </td>
 <td>
@@ -2448,8 +2454,8 @@ actions in &lsquo;Install.IgnoreTestFailures&rsquo; and &lsquo;Upgrade.IgnoreTes
 <td>
 <code>filters</code><br>
 <em>
-<a href="#helm.toolkit.fluxcd.io/v2.[]./api/v2.Filter">
-[]./api/v2.Filter
+<a href="#helm.toolkit.fluxcd.io/v2.Filter">
+Filter
 </a>
 </em>
 </td>
@@ -2463,6 +2469,10 @@ actions in &lsquo;Install.IgnoreTestFailures&rsquo; and &lsquo;Upgrade.IgnoreTes
 </div>
 <h3 id="helm.toolkit.fluxcd.io/v2.TestHookStatus">TestHookStatus
 </h3>
+<p>
+(<em>Appears on:</em>
+<a href="#helm.toolkit.fluxcd.io/v2.Snapshot">Snapshot</a>)
+</p>
 <p>TestHookStatus holds the status information for a test hook as observed
 to be run by the controller.</p>
 <div class="md-typeset__scrollwrap">
